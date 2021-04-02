@@ -561,7 +561,7 @@ void Jpl::get_list(unsigned int t, unsigned int c, unsigned int(&list)[12]) {
     if (t == 10) { list[2]     = kKind; }
     if (t ==  3) { list[9]     = kKind; }
     if (t == 13) { list[2]     = kKind; }
-    if (c <= 10) { list[t - 1] = kKind; }
+    if (c <= 10) { list[c - 1] = kKind; }
     if (c == 10) { list[2]     = kKind; }
     if (c ==  3) { list[9]     = kKind; }
     if (c == 13) { list[2]     = kKind; }
